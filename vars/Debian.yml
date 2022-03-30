@@ -1,0 +1,15 @@
+---
+common_packages_installed:
+  - cron
+  - bash-completion
+  - rsync
+  - vim
+  - iotop
+  - htop
+  - dnsutils 
+  - git
+  - tuptime
+  - sshfs
+  - progress
+
+common_packages_removed: []
