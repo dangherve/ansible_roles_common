@@ -11,5 +11,7 @@ common_packages_installed:
   - tuptime
   - sshfs
   - progress
+  - iptables
+  - postfix
 
 common_packages_removed: []
