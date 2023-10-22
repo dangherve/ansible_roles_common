@@ -6,7 +6,7 @@ common_packages_installed:
   - vim
   - iotop
   - htop
-  - dnsutils 
+  - dnsutils
   - git
   - tuptime
   - sshfs
