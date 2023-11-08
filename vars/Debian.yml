@@ -13,5 +13,7 @@ common_packages_installed:
   - progress
   - iptables
   - postfix
+  - vnstat
+  - vnstati
 
 common_packages_removed: []
