@@ -5,7 +5,7 @@
   when: hostname is defined and hostnameFailed is not defined
 
 - name: Include variables depending on OS family
-  include_vars: " {{ ansible_os_family | default('default') }}.yml"
+  include_vars: "{{ ansible_os_family | default('default') }}.yml"
 
 - include_tasks: debian.yml
   when: ansible_os_family == 'Debian'
